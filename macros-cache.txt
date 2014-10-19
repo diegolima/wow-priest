@@ -1,0 +1,98 @@
+VER 3 010000000000000A "BuffDiPriest" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=6 Power Word: Fortitude, Shadow Protection, Vampiric Embrace
+END
+VER 3 0100000000000001 "disc01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm,nomod] !Smite
+/cast [harm,mod:alt] !Holy Fire
+/cast [help,nomod,nodead]Penance
+/cast [help,mod:alt,nodead][mod:alt,@mouseover][mod:alt,@player] Greater Heal
+/cast [help,dead] Resurrection
+/cast [mod:shift] Inner Fire
+END
+VER 3 0100000000000002 "disc02" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [mod:shift] reset=6 Power Word: Fortitude, Shadow Protection
+/cast [help,nomod][nomod,@mouseover][nomod,@player] Heal;[harm,nomod] Holy Fire;[help,mod:alt][mod:alt,@mouseover][mod:alt,@player] Flash Heal 
+END
+VER 3 0100000000000006 "disc03" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Inner Focus
+/cast [mod:alt,@player] Power Infusion
+/cast [mod:shift] Hymn of Hope
+END
+VER 3 0100000000000003 "disc04" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Dispel Magic
+/cast [mod:alt] Cure Disease
+/cast [mod:shift]  Mass Dispel
+END
+VER 3 0100000000000005 "disc05" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,mod:alt] Power Word: Shield; [nomod]Power Word: Shield; [mod:alt] Prayer of Healing
+/cast [mod:shift] Power Word: Barrier
+END
+VER 3 0100000000000007 "disc06" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod,@mouseover] Renew
+/cast [mod:alt] Archangel
+/cast [mod:shift][mod:shift,@mouseover][mod:shift,@target] prayer of mending
+END
+VER 3 0100000000000013 "disc07" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Shadow Word: Pain
+/cast [mod:shift] Shadowfiend
+/cast [mod:alt] Levitate
+END
+VER 3 010000000000000C "disc08" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] binding heal
+/cast [mod:alt] pain suppression
+/cast [mod:shift] Leap of Faith
+END
+VER 3 0100000000000014 "disc09" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Holy Nova
+/cast [mod:alt] Shadow Word: Death
+/cast [mod:shift] Shackle Undead
+END
+VER 3 010000000000000B "disc10" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Mind Control
+/cast [mod:alt] 14
+/cast [mod:shift] 13
+END
+VER 3 0100000000000004 "disc11" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Psychic Scream
+/cast [mod] Fade
+END
+VER 3 0100000000000011 "sh01" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod,stance:1] Mind Blast; [stance:0] Flash Heal;
+/cast [mod:alt,stance:1] Mind Spike; [mod:shift,stance:1] Flash Heal;
+END
+VER 3 0100000000000012 "sh02" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1,nomod] Shadow Word: Death; [stance:0] Greater Heal;
+/cast [stance:1,mod:alt] Mind Soothe; 
+/castsequence [stance:1mod:shift] reset=5 Power Word: Fortitude, Shadow Protection, Vampiric Embrace, Inner Fire
+END
+VER 3 0100000000000010 "sh06" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomodifier] Archangel
+/cast [mod:alt] Mind Sear
+END
+VER 3 010000000000000F "sh07" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nomod] Shadow Word: Pain
+/cast [mod:alt] Vampiric Touch
+/cast [mod:shift] Devouring Plague
+END
+VER 3 010000000000000D "VuhDoDCShieldData" "Ability_Repair"
+P1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000E "VuhDoDCShieldNames" "Ability_Repair"
+NKen[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Chr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
